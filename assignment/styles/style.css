@@ -1,1 +1,58 @@
 /* give your assignment a fun background color */
+
+
+body{
+    background-image: radial-gradient(rgb(106, 137, 187) 0%,  rgb(233, 115, 134) 50%, rgb(128, 128, 128)100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+div{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: none;
+    padding: 0 0 0 0;
+    text-align: center;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2{
+    display: flex;
+    text-align: center;
+    margin: none;
+    flex-direction: column;
+    align-items: center;
+  
+}
+h1{
+    font-size: 3.5rem;
+
+}
+h2{
+    font-weight: normal;
+    }
+
+ol{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+li{
+    display: flex;
+    line-height: 2rem;
+    flex-direction: column;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    align-items: left;
+    width: 50rem
+   
+}
